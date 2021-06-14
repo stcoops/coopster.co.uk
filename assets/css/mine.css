@@ -190,9 +190,9 @@
     float: center;
     display: block;
     color: #9f9f9f;
-    padding: 5px 60px;
+    padding: 5px 24px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #wip-banner-fade-out-mobile a {
@@ -215,12 +215,12 @@
 	#wip-banner-mobile {
 		visibility: visible;
 	}
-
+}
 
 
 
  /* blinking cursor */
- #cursor {
+ .cursor {
 	font-weight: 700;
 	font-size: 1.2em;
 	color: white;
