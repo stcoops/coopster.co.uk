@@ -4,6 +4,13 @@ on:
   push:
     branches:
     - main
+    paths-ignore:
+      - '.github/*'
+      - '.gitignore'
+      - 'templates/**'
+      - 'template.html'
+      - '**.md'
+      - 'LICENSE'
 
 jobs:
   deploy:
