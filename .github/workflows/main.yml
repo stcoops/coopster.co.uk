@@ -5,12 +5,13 @@ on:
     branches:
     - main
     paths-ignore:
-      - '.github/*'
-      - '.gitignore'
-      - 'templates/**'
-      - 'template.html'
-      - '**.md'
-      - 'LICENSE'
+    - '.git/*'
+    - '.github/*'
+    - '.gitignore'
+    - 'templates/**'
+    - 'template.html'
+    - '**.md'
+    - 'LICENSE'
 
 jobs:
   deploy:
