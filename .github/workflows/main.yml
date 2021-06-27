@@ -5,8 +5,8 @@ on:
     branches:
     - main
     paths-ignore:
-    - '.git/*'
-    - '.github/*'
+    - '.git/**'
+    - '.github/**'
     - '.gitignore'
     - 'templates/**'
     - 'template.html'
