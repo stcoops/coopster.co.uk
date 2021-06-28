@@ -9,3 +9,8 @@ document.getElementById("wip-banner-mobile")
 
   document.getElementById("wip-banner-mobile").id = "wip-banner-fade-out-mobile";
 });
+
+
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var message = document.getElementById("message").value;
