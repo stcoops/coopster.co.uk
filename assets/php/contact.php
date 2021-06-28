@@ -10,5 +10,5 @@ if (isset($_POST['submit'])) {
     $txt = "E-mail from ".$name.".\n\n".$message;
 
     mail($mailTo, "Contact on Coopster.co.uk", $txt, $headers);
-    header("Location: ");
+    header("Location: ../../index.html");
 }
